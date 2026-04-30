@@ -1,0 +1,18 @@
+[
+  "tests/test_api.py::test_chat_clarification_then_answer",
+  "tests/test_api.py::test_chat_validation",
+  "tests/test_api.py::test_health",
+  "tests/test_api.py::test_session_isolation",
+  "tests/test_graph.py::test_clarification_when_country_missing",
+  "tests/test_graph.py::test_country_inherited_from_history",
+  "tests/test_graph.py::test_general_query_no_clarification",
+  "tests/test_graph.py::test_keyword_fallback_detects_country",
+  "tests/test_graph.py::test_keyword_fallback_when_structured_output_fails",
+  "tests/test_graph.py::test_refusal_when_no_chunks",
+  "tests/test_graph.py::test_retrieve_when_country_known",
+  "tests/test_retriever.py::test_country_filter_excludes_other_country",
+  "tests/test_retriever.py::test_country_filter_france",
+  "tests/test_retriever.py::test_ensure_indexed_idempotent",
+  "tests/test_retriever.py::test_index_contains_all_files",
+  "tests/test_retriever.py::test_search_returns_results"
+]
